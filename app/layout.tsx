@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 
@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   title: "The Points Guy — Personalized Travel Rewards",
   description:
     "A redesigned, AI-personalized experience for points, miles, and travel rewards.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
