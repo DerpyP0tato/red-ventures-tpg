@@ -27,6 +27,9 @@
 # Claude Code session state
 .claude/
 
+# Stale build cache from pre-flatten path (dev server running from old cwd)
+tpg-prototype/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
