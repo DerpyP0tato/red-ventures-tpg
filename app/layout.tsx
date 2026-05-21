@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} antialiased`}>
-      <body className="min-h-screen bg-white text-tpg-ink">
+      <body className="min-h-screen overflow-x-hidden bg-white text-tpg-ink">
         {children}
       </body>
     </html>
