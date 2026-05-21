@@ -158,7 +158,7 @@ export default function HomePage() {
             <p className="text-[10px] font-bold uppercase tracking-widest text-tpg-gray-500">
               Advertisement
             </p>
-            <div className="mt-3 grid items-center gap-8 md:grid-cols-[1fr_auto]">
+            <div className="mt-3 grid items-center gap-8 sm:grid-cols-[1fr_auto]">
               <div>
                 <p className="text-sm font-bold uppercase tracking-wider text-tpg-blue">
                   {heroCard.issuer} · {heroCard.name}
