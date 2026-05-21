@@ -53,7 +53,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-tpg-border bg-white shadow-[0_1px_0_rgba(0,0,0,0.04)]">
-      <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-6 px-7 sm:px-7 lg:px-8">
+      <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-3 px-7 sm:gap-6 sm:px-7 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center">
           <Logo />
         </Link>

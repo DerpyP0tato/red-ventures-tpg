@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} antialiased`}>
+    <html lang="en" className={`${geistSans.variable} overflow-x-hidden antialiased`}>
       <body className="min-h-screen overflow-x-hidden bg-white text-tpg-ink">
         {children}
       </body>
